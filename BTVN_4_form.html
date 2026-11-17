@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Job application</h1>
+    <form action="/action_page.php" target="_self" method="post">
+        <fieldset>
+            <legend>Personal information</legend>
+            <label for="fname" >Họ và tên</label><br>
+            <input type="text" id="fname">
+<br>
+            <label for="fname">Địa chỉ Email</label><br>
+            <input type="text" id="fname">
+<br>            
+            <label for="fname">Số điện thoại</label><br>
+            <input type="text" id="fname">
+<br> 
+        <fieldset style="border: 1px solid #e0e0e0; border-radius: 6px; padding: 16px; margin-bottom: 20px;">
+        <legend style="font-weight: bold; padding: 0 8px;">Application</legend>
+        <label for="cover-letter" style="display: block; margin-bottom: 8px;">Cover Letter</label>
+        <textarea 
+    id="cover-letter" 
+    name="cover_letter" 
+    rows="10" 
+    cols="50"
+    placeholder="My name is"
+    style="width: 100%; box-sizing: border-box; padding: 10px; border: 1px solid #ccc; border-radius: 4px; font-family: monospace;"></textarea>
+    </fieldset>
+       <br>
+       <label for="reseum" style="display:block; margin-bottom: 8px;"> Upload CV</label>
+       <input type="file" id="reseum" name="resume" style="font-style: italic; color: #666;">
+       <br><br>
+        <button type="submit" style="width: all;font-size: larger; background-color: rgb(90, 161, 253); border: none; border-radius: 5%;" > Submit Application</button>
+       <br>
+    </form>
+</body>
+</html>
